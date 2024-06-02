@@ -1,0 +1,10 @@
+body {
+    height: 100svh;
+    display: grid;
+    place-content: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
