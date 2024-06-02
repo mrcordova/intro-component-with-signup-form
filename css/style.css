@@ -24,6 +24,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-inline: 1.6rem;
+
+    text-align: center;
 }
 form {
     display: flex;
