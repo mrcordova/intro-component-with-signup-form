@@ -69,6 +69,7 @@ form {
     max-width: 50ch;
     line-height: 1.6;
     font-size: 0.95rem;
+    border-radius: 10px;
 }
 
 
