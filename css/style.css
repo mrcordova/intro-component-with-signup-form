@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-inline: 1.6rem;
 }
 form {
     display: flex;
