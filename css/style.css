@@ -58,6 +58,7 @@ form {
     padding-inline: 1.3rem;
     padding-block: 1rem;
     border-radius: 9px;
+    /* gap: 1rem; */
 }
 .form-con {
     display: flex;
@@ -100,4 +101,17 @@ form {
     margin-block-end: 3.9rem;
     /* play around with max width  */
     max-width: 60ch;
+}
+
+input:not([type="checkbox"]) {
+    all: unset;
+    text-align: left;
+    border: 1px solid var(--grayish-blue);
+    padding-block: 1rem;
+    padding-inline: 1.2rem;
+    font-size: 0.93rem;
+}
+
+input:not([type="checkbox"]):placeholder {
+
 }
