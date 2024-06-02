@@ -104,7 +104,7 @@ form {
     max-width: 60ch;
 }
 
-input:not([type="checkbox"]) {
+input {
     all: unset;
     text-align: left;
     border: 1px solid var(--grayish-blue);
