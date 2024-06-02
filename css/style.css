@@ -55,7 +55,9 @@ form {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding-inline: 0.5rem;
+    padding-inline: 1.3rem;
+    padding-block: 1rem;
+    border-radius: 9px;
 }
 .form-con {
     display: flex;
