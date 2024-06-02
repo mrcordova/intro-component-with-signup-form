@@ -47,7 +47,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-inline: 1.6rem;
+    margin-inline: 1.2rem;
 
     text-align: center;
 }
@@ -58,7 +58,20 @@ form {
 .form-con {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.form-heading {
+    background-color: var(--blue);
+    color: white;
+    padding-inline: 4.5em;
+    padding-block: 1.3rem;
+    max-width: 50ch;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+
 .heading {
     max-width: 18ch;
     line-height: 1.3;
@@ -76,6 +89,7 @@ form {
    
     line-height: 1.6;
     font-size: 1rem;
+    margin-block-end: 3.9rem;
     /* play around with max width  */
     max-width: 60ch;
 }
