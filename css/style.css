@@ -55,11 +55,18 @@ form {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding-inline: 1.3rem;
+
+    /* Mobile */
+    padding-inline: 1.4rem;
     padding-block: 1.5rem;
     border-radius: 9px;
     gap: 1rem;
     box-shadow: 0px 9px 0px 0px rgba(0, 0, 0, 0.2);
+
+    /* inline-size: 20.5rem; */
+    /* block-size: 27.55rem; */
+
+    /* Desktop */
 }
 .form-con {
     display: flex;
