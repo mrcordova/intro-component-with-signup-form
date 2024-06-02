@@ -93,14 +93,24 @@ form {
 .form-heading {
     background-color: var(--blue);
     color: white;
-    padding-inline: 4.5em;
-    padding-block: 1rem;
-    max-width: 50ch;
-    line-height: 1.75;
-    font-size: 0.96rem;
     border-radius: 10px;
     box-shadow: 0px 9px 0px 0px rgba(0, 0, 0 , 0.2);
 
+    /* Mobile */
+    /* padding-inline: 4.5em; */
+    /* padding-block: 1rem; */
+    /* max-width: 50ch; */
+    /* line-height: 1.75; */
+    /* font-size: 0.96rem; */
+    /* margin-block-end: 1.7rem; */
+    text-align: center;
+    /* Desktop */
+    /* padding-inline: 9em; */
+    padding-block: 1rem;
+    width: 100%;
+    /* max-width: 50ch; */
+    line-height: 1.75;
+    font-size: 0.96rem;
     margin-block-end: 1.7rem;
 }
 
