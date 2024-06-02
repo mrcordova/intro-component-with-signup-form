@@ -7,4 +7,18 @@ body {
 .content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-con {
+    display: flex;
+    flex-direction: column;
 }
