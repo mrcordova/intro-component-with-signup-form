@@ -47,7 +47,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-inline: 1.2rem;
+    margin-inline: 1.6rem;
 
     text-align: center;
 }
@@ -55,6 +55,7 @@ form {
     display: flex;
     flex-direction: column;
     background-color: white;
+    padding-inline: 0.5rem;
 }
 .form-con {
     display: flex;
