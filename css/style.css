@@ -56,9 +56,9 @@ form {
     flex-direction: column;
     background-color: white;
     padding-inline: 1.3rem;
-    padding-block: 1rem;
+    padding-block: 1.5rem;
     border-radius: 9px;
-    /* gap: 1rem; */
+    gap: 1rem;
 }
 .form-con {
     display: flex;
@@ -110,6 +110,7 @@ input:not([type="checkbox"]) {
     padding-block: 1rem;
     padding-inline: 1.2rem;
     font-size: 0.93rem;
+    border-radius: 5px;
 }
 
 input:not([type="checkbox"]):placeholder {
