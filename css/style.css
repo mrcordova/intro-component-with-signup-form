@@ -74,8 +74,8 @@ form {
     
     /* Desktop */
     
-    inline-size: 33.8rem;
-    block-size: 29.6rem;
+    /* inline-size: 33.8rem; */
+    /* block-size: 29.6rem; */
     padding-inline: 2.5rem;
     padding-block: 2.5rem;
     border-radius: 9px;
@@ -186,10 +186,17 @@ input {
 
 .terms-para {
     color: var(--grayish-blue);
-    font-size: 0.7rem;
-    max-width: 38ch;
+    /* Mobile */
+    /* font-size: 0.7rem; */
+    /* max-width: 38ch; */
+    /* line-height: 1.6; */
+    /* margin-inline: 1.1rem; */
+
+    /* Desktop */
+    font-size: 0.68rem;
+    max-width: 53ch;
     line-height: 1.6;
-    margin-inline: 1.1rem;
+    margin-inline: 2.8rem;
 }
 .terms-para>span {
     color: var(--red);
