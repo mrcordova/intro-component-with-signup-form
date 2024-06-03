@@ -43,30 +43,30 @@
           <span class="poppins-bold"> Try it free 7 days </span> then $20/mo. thereafter
         <!-- </div> -->
       </div>
-      <form class="poppins-semibold">
+      <form class="poppins-semibold" novalidate>
         <div class="input-con">
-          <input type="text" name="first-name" id="first-name" placeholder="First Name" class="" required> 
-          <labåel for="first-name" class="input-error-text input-error-hide" >
+          <input type="text" name="first-name" id="first-name" placeholder="First Name" aria-errormessage="firstID" aria-invalid="false" class="" required> 
+          <labåel for="first-name" id="firstID" aria-live="off" class="input-error-text input-error-hide" >
             First name cannnot be empty
           </label>
         </div>
         <div class="input-con">
 
-          <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="" required>
-          <label for="last-name" class="input-error-text input-error-hide">
+          <input type="text" name="last-name" id="last-name" placeholder="Last Name" aria-errormessage="lastID" aria-invalid="false" class="" required>
+          <label for="last-name" id="lastID" aria-live="off" class="input-error-text input-error-hide">
             Last Name cannot be empty
           </label>
         </div>
         <div class="input-con">
 
-          <input type="email" name="email" id="email" placeholder="Email Address"  class="" required>
-          <label for="email" class="input-error-text input-error-hide">
+          <input pattern=".+@.+\.com" type="email" name="email" id="email" title="Must match pattern: [a-zA-Z0-9]+@[a-zA-Z0-9]+.com" aria-errormessage="emailID" aria-invalid="false"  placeholder="Email Address"  class="" required>
+          <label for="email" id="emailID" aria-live="off" class="input-error-text input-error-hide">
             Looks like this is not an email
           </label>
         </div>
         <div class="input-con">
-          <input type="password" name="password" id="password" placeholder="Password" class="" required> 
-          <label for="password" class="input-error-text input-error-hide" >
+          <input type="password" name="password" id="password" placeholder="Password" aria-errormessage="passID" aria-invalid="false" class="" required> 
+          <label for="password" id="passID" aria-live="off" class="input-error-text input-error-hide" >
             Password cannot be empty
           </label>
         </div>
