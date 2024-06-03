@@ -201,6 +201,9 @@ input {
     /* font-size: 0.93rem; */
     /* border-radius: 5px; */
 }
+input:focus {
+    border: 3px solid var(--blue);
+}
 
 .input-error {
     background: url('../images/icon-error.svg') no-repeat right 25px center;
