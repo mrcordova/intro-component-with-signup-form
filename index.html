@@ -44,10 +44,32 @@
         <!-- </div> -->
       </div>
       <form class="poppins-semibold">
-        <input type="text" name="first-name" id="first-name" placeholder="First Name">
-        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
-        <input type="email" name="email" id="email" placeholder="Email Address">
-        <input type="password" name="password" id="password" placeholder="Password"> 
+        <div class="input-con">
+          <input type="text" name="first-name" id="first-name" placeholder="First Name" class="input-error"> 
+          <labåel for="first-name" class="input-error-text" >
+            First name cannnot be empty
+          </label>
+        </div>
+        <div class="input-con">
+
+          <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="input-error">
+          <label class="input-error-text">
+            Last Name cannot be empty
+          </label>
+        </div>
+        <div class="input-con">
+
+          <input type="email" name="email" id="email" placeholder="Email Address" class="input-error">
+          <label class="input-error-text">
+            Looks like this is not an email
+          </label>
+        </div>
+        <div class="input-con">
+          <input type="password" name="password" id="password" placeholder="Password" class="input-error"> 
+          <label class="input-error-text" >
+            Password cannot be empty
+          </label>
+        </div>
         
         <button class="submit-btn" type="submit">
           CLAIM YOUR FREE TRIAL 

@@ -175,12 +175,15 @@ form {
     /* max-width: 50ch; */
     
 }
+.input-con {
+    display: flex;
+    flex-direction: column;
+}
 
 input {
     all: unset;
     text-align: left;
     border: 1px solid var(--grayish-blue);
-    background: url('../images/icon-error.svg') no-repeat right center;
     /* Mobile */
     /* padding-block: 1rem; */
     /* padding-inline: 1.2rem; */
@@ -198,6 +201,21 @@ input {
     /* font-size: 0.93rem; */
     /* border-radius: 5px; */
 }
+
+.input-error {
+    background: url('../images/icon-error.svg') no-repeat right 25px center;
+    border: 3px solid var(--red);
+}
+.input-error-hide {
+    display: none;
+}
+.input-error-text {
+    color: var(--red);
+    font-size: 0.65rem;
+    text-align: right;
+    /* margin-block-start: -1rem; */
+}
+
 
 .submit-btn {
     background-color: var(--green);
