@@ -76,10 +76,10 @@ form {
     
     inline-size: 33.8rem;
     block-size: 29.6rem;
-    padding-inline: 1.4rem;
-    padding-block: 1.5rem;
+    padding-inline: 2.5rem;
+    padding-block: 2.5rem;
     border-radius: 9px;
-    gap: 1rem;
+    gap: 1.2rem;
 }
 .form-con {
     display: flex;
@@ -106,10 +106,10 @@ form {
     text-align: center;
     /* Desktop */
     /* padding-inline: 9em; */
-    padding-block: 1rem;
+    padding-block: 1.4rem;
     width: 100%;
     /* max-width: 50ch; */
-    line-height: 1.75;
+    line-height: 1;
     font-size: 0.96rem;
     margin-block-end: 1.7rem;
 }
